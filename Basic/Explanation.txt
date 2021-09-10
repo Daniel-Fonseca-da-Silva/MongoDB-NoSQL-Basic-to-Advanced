@@ -1,0 +1,7 @@
+mongod -> The data base
+mong -> the client
+mongo --help -> Show commands to help
+mongod --dbpath -> Directory to save data files
+mdkir -> Create folder
+mongod --dbpath ./mongo-data -> Start the serve in shell
+

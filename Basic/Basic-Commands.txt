@@ -1,0 +1,7 @@
+db -> Show db test
+use mydb -> Create db
+db -> Show db created 
+show dbs -> Show all dbs in database
+db.myCollection.insert( {"value": 123}) -> Insert document
+db.myCollection.insert( {"value": 456}) -> Insert document
+
