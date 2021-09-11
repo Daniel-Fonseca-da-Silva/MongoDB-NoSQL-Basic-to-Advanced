@@ -1,4 +1,5 @@
-{
+db.students.insert(
+    {
     "name": "Nikolai",
     "dob": 12,
     "likesOf": ["football", "baseball", "running"],
@@ -8,5 +9,10 @@
         "France": 8.5,
         "Spanich": 6.5
     }
-    
-}
+}    
+)
+
+db.students.find()
+
+db.students.find().pretty()
+
