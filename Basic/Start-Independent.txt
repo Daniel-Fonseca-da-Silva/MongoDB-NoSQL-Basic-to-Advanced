@@ -1,0 +1,6 @@
+mongod --dbpath ./mongo-data --fork --logpath .mongo.log -> Create file for logs
+
+ps aux | grep mongo -> Verify if started on SO
+
+mongo -> If work your database is working!
+
