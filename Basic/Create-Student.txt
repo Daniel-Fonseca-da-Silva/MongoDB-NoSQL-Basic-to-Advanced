@@ -1,0 +1,12 @@
+{
+    "name": "Nikolai",
+    "dob": 12,
+    "likesOf": ["football", "baseball", "running"],
+    "inSchool": true,
+    "fields": {
+        "English": 9.9,
+        "France": 8.5
+        "Spanich": 6.5
+    }
+    
+}
