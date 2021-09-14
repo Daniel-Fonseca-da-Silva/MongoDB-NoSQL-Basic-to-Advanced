@@ -1,0 +1,20 @@
+CRUD
+
+Create -> Create a resource
+insert
+insertOne
+insertMany
+
+Read -> Read a resource
+find
+findOne
+
+update -> Update a resource
+update
+updateOne
+updateMany
+
+Delete -> Remove a resource
+deleteOne
+deleteMany
+
