@@ -1,0 +1,6 @@
+db.crud.insert([{a: 123}, {b: 456}]) -> Insert two elements
+db.crud.insertOne([{a: 123}, {b: 456}]) -> Insert two elements
+db.crud.insertMany([{a: 123}, {b: 458}, {c: 789}]) -> Insert array
+ db.crud.insertMany([{a: 123}, {b: 458}, {c: 789}], {ordered: false}) -> true break if have error and false continue with error to next element
+db.testInsertMany.insertMany([{_id: 1, a: 123}, {_id: 2, b: 456}, {_id: 3, c: 789}]) -> Create with id
+
