@@ -1,0 +1,4 @@
+cat mongo.log -> Show log
+tail mongo.log -n 5 -> Show only final part of log
+tail mongo.log -f -> Block the terminal with log
+
