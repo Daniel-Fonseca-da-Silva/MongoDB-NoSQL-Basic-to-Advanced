@@ -1,0 +1,11 @@
+Query
+db.crud.find( {b: 456} ) > search like select where
+db.crud.findOne( {b: 456} ) search like select where
+db.crud.find( {b: 456} ) search like select where
+db.crud.find( {c: { $exists: true } } )  search like select where have c
+db.crud.find( {c: { $exists: false } } )  search like select where don't have c
+
+Projection
+db.students.findOne( {} ) Get all
+db.students.findOne( {}, { name: 1, fields: 1, id_: false } ) search name and fields with hidden id 
+
