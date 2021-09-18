@@ -1,0 +1,4 @@
+db.crud.updateOne( {b: 456}, { $set: { d: 555 }  } ) -> Add new element
+> db.crud.updateMany( {a: 123}, { $set: { h: 20 }  } ) -> Add new element
+db.crud.replaceOne( {c: 789}, {other: "document"}) -> Replace old element wit new element
+
