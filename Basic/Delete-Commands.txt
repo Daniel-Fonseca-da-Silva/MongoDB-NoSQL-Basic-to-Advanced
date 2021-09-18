@@ -1,0 +1,6 @@
+db.crud.deleteOne( {a: 456} ) -> Delete one element with key a where value is 456
+
+db.crud.deleteMany( {b: 789} ) -> Delete all element with key where value is 789
+
+db.crud.deleteOne( {} ) -> Delete all elements(delete without where clause! very danger!)
+
