@@ -1,0 +1,13 @@
+    Embedded documents 
+    {
+        "_id": 1,
+        "cpf": "123456798",
+        "name": "Nikolai",
+        "City": "Porto",
+        "card": {
+            "_id": 8,
+            "class": "220A",
+            "ra": 1245
+        }
+    }
+
