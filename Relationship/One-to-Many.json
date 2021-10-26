@@ -1,0 +1,20 @@
+{
+	"_id": 3,
+	"goal": 4000,
+	"name": "Vendas",
+	"employees": [
+		{
+			"_id": 8,
+			"salary": 1400,
+			"turn": "afternoon",
+			"position": "Salesman"		
+		},
+		{
+			"_id": 12,
+			"salary": 1600,
+			"turn": "Night",
+			"position": "Salesman"		
+		}	
+	]
+}
+
