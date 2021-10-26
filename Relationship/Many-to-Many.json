@@ -1,0 +1,37 @@
+{
+	_id: "f04",
+	name: "Provider A,
+	cnpj: "123452356",
+	cep: "125623", {
+		"product_ids": ["s16", "s18"]
+	}
+}
+
+{
+	_id: "f07",
+	name: "Provider B",
+	cnpj: "562345566",
+	cep: "214125"
+	"products_ids": ["18", "s20"]
+}
+
+{
+	_id: "s16",
+	descricao: "Computer",
+	preco: "995.89",
+	provider_ids: ["f04"] 
+}
+
+{
+	_id: "s18",
+	descricao: "Telephone",
+	preco: "45.99",
+	provider_ids: ["f04", "f07"]  
+}
+
+{
+	_id: "s20",
+	descricao: "Telephone",
+	preco: "45.99" 
+	provider_ids: ["f07"]
+}
